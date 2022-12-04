@@ -8,7 +8,7 @@
 CC = gcc
 SRC = $(wildcard src/*.c)
 OBJ = $(SRC:.c=.o)
-TARGET = my_hunter
+TARGET = slime_defender
 
 all : $(TARGET)
 
